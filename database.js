@@ -1,6 +1,6 @@
 let carros = [
 {
-    nome: 'RS6',
+    nome: 'Audi RS6',
     marca: 'Audi',
     descricao: "A Audi RS6: Um Monstro Disfarçado de Perua. A Audi RS6 é a personificação do desempenho em um pacote elegante e prático. Com um motor V8 biturbo de 4.0 litros capaz de gerar mais de 600 cavalos de potência, a RS6 acelera de 0 a 100 km/h em tempo recorde, transformando a experiência de dirigir em uma verdadeira emoção.",
     link: "https://www.audi.com.br/br/web/pt/models/a6/rs-6-avant.html",
@@ -8,14 +8,15 @@ let carros = [
 },
 
 {
-    nome: '911',
+    nome: 'Porsche 911',
     marca: 'Porsche',
     descricao: "A Porsche 911 é um ícone do automobilismo, sinônimo de performance e design atemporal. Com seu motor boxer de 6 cilindros e tração traseira, a 911 oferece uma experiência de condução única e emocionante. Seja na pista ou nas ruas, a 911 proporciona um prazer de dirigir incomparável.",
     link: "https://www.porsche.com/brazil/pt/models/911/",
-    tags: "esportivo, cupê, alemão, boxer, clássico, ícone, porsche"
+    tags: "esportivo, cupê, alemão, boxer, clássico, ícone, porsche",
+    imagem: 'imgs/porsche-911',
 },
 {
-    nome: 'M2',
+    nome: 'BMW M2',
     marca: 'BMW',
     descricao: "A BMW M2 é a definição de um esportivo puro. Com seu motor turbo de 6 cilindros em linha, a M2 oferece um desempenho emocionante e uma agilidade incrível. Seu design esportivo e interior focado no motorista completam a experiência de condução.",
     link: "https://www.bmw.com.br/pt/all-models/m-series/m2-coupe/2022/bmw-2-series-coupe-m-automobiles-overview.html",
@@ -91,7 +92,8 @@ let carros = [
     marca: 'Porsche',
     descricao: "O Porsche 718 Cayman GT4 é um esportivo de motor central com um chassi leve e um motor de seis cilindros boxer atmosférico, oferecendo uma experiência de condução pura e envolvente.",
     link: "https://www.porsche.com/usa/models/718-cayman/718-cayman-gt4/",
-    tags: "esportivo, alemão, porsche, cayman, gt4, motor_central, boxer"
+    tags: "esportivo, alemão, porsche, cayman, gt4, motor_central, boxer",
+    imagem: "imgs/porsche-718"
 },
 {
     nome: 'Mercedes-AMG GT',
@@ -121,7 +123,8 @@ let carros = [
     marca: 'Porsche',
     descricao: "O Porsche Taycan Turbo S é um sedan elétrico de alto desempenho que combina a tradição da marca com a tecnologia do futuro. Seu motor elétrico oferece uma aceleração brutal e uma autonomia impressionante.",
     link: "https://www.porsche.com/usa/models/taycan/",
-    tags: "elétrico, esportivo, alemão, porsche, taycan, turbo, desempenho, elétrico"
+    tags: "elétrico, esportivo, alemão, porsche, taycan, turbo, desempenho, elétrico",
+    imagem: "imgs/porsche-taycan"
 },
 {
     nome: 'Tesla Model S Plaid',
@@ -224,7 +227,8 @@ nome: 'Porsche Cayenne',
 marca: 'Porsche',
 descricao: "O Porsche Cayenne é um SUV de luxo com um desempenho esportivo e um interior sofisticado. Seu motor V8 biturbo oferece uma potência impressionante, enquanto seu sistema de suspensão adaptativo garante um passeio confortável.",
 link: "https://www.porsche.com/brazil/pt/models/cayenne/",
-tags: "suv, alemão, porsche, cayenne, v8, luxo, desempenho"
+tags: "suv, alemão, porsche, cayenne, v8, luxo, desempenho",
+imagem: "imgs/porsche-cayenne"
 },
 
 {
