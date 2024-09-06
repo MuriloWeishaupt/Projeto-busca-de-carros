@@ -4,10 +4,46 @@
     box-sizing: border-box;
 }
 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.roboto-light {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.roboto-medium {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.roboto-black {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+  
 body {
     background-color: #adacacdd;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     background-image: url(imgs/background.jpg);
     background-repeat: no-repeat;
@@ -21,6 +57,7 @@ h1 {
     font-size: 5rem;
     margin-bottom: 20px;
 }
+
 
 header {
     margin-top: 100px;
@@ -57,8 +94,7 @@ button {
     border: none;
     border-radius: 20px;
     margin-top: 15px;
-    height: 30px;
-    padding: 5px;
+    height: 40px;
 }   
 
 button:hover {
@@ -77,8 +113,15 @@ button:hover {
     margin-top: 20px;
 }
 
+.carro-container p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
 footer {
-    margin-top: 100vh;
+    margin-top: 50vh;
     width: 100%;
     background-color: #353535;
     color: white;

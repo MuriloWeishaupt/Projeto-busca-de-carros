@@ -23,7 +23,8 @@ function mostraResultados() {
         ) {
             resultados += `
                 <div class="carro-container">
-                    <h2><a href="${carro.link}" target="_blank">${carro.nome}</a></h2>
+                    <h2 class="titulo-carro"><a href="${carro.link}" target="_blank">${carro.nome}</a></h2>
+                    <br>
                     <p>${carro.descricao}</p>
                 </div>
             `;
@@ -39,4 +40,3 @@ if (!resultados) {
 }
 
 button.addEventListener('click', mostraResultados);
-
