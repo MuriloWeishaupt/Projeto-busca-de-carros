@@ -55,7 +55,7 @@ body {
 h1 {
     color: white;
     font-size: 5rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -70,9 +70,12 @@ input {
     width: 400px;
     border: none;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    font-weight: bold;
     height: 40px;
     padding-left: 10px;
+    outline: none;
 }
 
 .desc-carro {
@@ -106,18 +109,60 @@ button:hover {
 }
 
 .carro-container {
-    background-color: #d3d3d3;
-    border-radius: 10px;
+    background-color: #a5a5a5;
+    border-radius: 30px;
     padding: 10px;
+    height: 20%;
     text-align: justify;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.carro-container h3 {
+    background-color: #161616;
+    font-weight: 400;
+    width: 25%;
+    padding: 7px;
+    margin-left: -10px;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.carro-container a {
+    color: white;
+    padding: 10px;
+}
+.carro-container .titulo-carro {
+    background-color: rgb(10, 48, 10);
+    max-width: 50%;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
     margin-top: 20px;
 }
 
+
 .carro-container p {
+    margin-left: -10px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 50px;
     padding-bottom: 30px;
+    padding-top: 20px;
+    max-width: 80%;
+    text-align: center;
+    font-weight: 400;
+    justify-content: center;
     text-align: justify;
+    color: #fff;
+    background-color: #242424;
+    margin-bottom: 25px;
+    border-radius: 0px 50px 50px 0px;
+
 }
 
 .imagem-carro {

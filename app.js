@@ -14,7 +14,7 @@ function mostraResultados() {
     }
 
     for (const carro of carros) {
-        const { nome, descricao, marca, tags, imagem } = carro;
+        const { nome, descricao, marca, tags, imagem, potencia } = carro;
         if (
             nome.toLowerCase().includes(campoPesquisa) ||
             descricao.toLowerCase().includes(campoPesquisa) ||
@@ -24,6 +24,9 @@ function mostraResultados() {
             resultados += `
                 <div class="carro-container">
                     <h2 class="titulo-carro"><a href="${carro.link}" target="_blank">${carro.nome}</a></h2>
+                    <br>
+                    <h3><b>Marca:</b> ${carro.marca}</h3>
+                    <h3><b>Potência:</b>${carro.potencia}</h3> 
                     <br>
                     <p>${carro.descricao}</p>
                     <img class="imagem-carro" src="${carro.imagem}">
