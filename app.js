@@ -3,7 +3,7 @@ const button = document.querySelector(".button")
 
 
 function mostraResultados() {
-    const campoPesquisa = document.querySelector('#campoPesquisa').value.toLowerCase();
+    let campoPesquisa = document.querySelector('#campoPesquisa').value.toLowerCase();
     const section = document.querySelector('#resultado-pesquisa');
     let resultados = '';
 
@@ -30,6 +30,7 @@ function mostraResultados() {
                 </div>
             `;
         }
+        document.querySelector('#campoPesquisa').value = ''
     }
 
     section.innerHTML = resultados
@@ -40,4 +41,10 @@ if (!resultados) {
 }
 }
 
+campoPesquisa.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(),
+        mostraResultados(event.keyCode)
+    }
+})
 button.addEventListener('click', mostraResultados);
